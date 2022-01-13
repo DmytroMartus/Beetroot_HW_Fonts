@@ -1,0 +1,69 @@
+@import "_fonts.css"; 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #fff, #f1eaeaa2);
+}
+
+.container {
+    width: 88%;
+    height: auto;  
+    margin: 10vh auto;
+    padding: 130px 120px;    
+    background-color: #fff;
+    box-shadow: 2px 3px 5px 0px #444;
+}
+
+h1 {
+    font-family: "PlayfairDisplay-Regular", serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    line-height: 1.88;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.text__4 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.text__1::first-letter {
+    font-family: "PlayfairDisplay-Regular", serif;
+    font-size: 110px;
+    color: #000000;
+    float: left;
+    margin-top: -10px;
+    padding: 0 20px 0 0;
+    line-height: 1;
+}
+
+.quotes {
+    font-size: 65px;
+    color: #5c5c5c;
+    padding-right: 20px;
+}
+
+.button {
+    width: 265px;
+    height: 70px;
+    font-family: "Lato-Bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #eaa258;
+    border: 2px solid #eaa258;
+    background-color: #fff;
+    cursor: pointer;
+}
+
